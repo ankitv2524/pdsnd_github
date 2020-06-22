@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 import statistics as st
 
-## Filenames
+## All the  include Filenames
 #chicago = 'chicago.csv'
 #new_york_city = 'new_york_city.csv'
 #washington = 'washington.csv'
@@ -27,7 +27,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
     city = input('\nWould you like to see data for.?: Simply type the Name \n-> Chicago \n-> New York\n-> Washington\n').lower()
-               #lower() is used to take input of any type formate
+               #lower() command is used to take input of any type formate
 
     while(True):
         if(city == 'chicago' or city == 'new york' or city == 'washington' or city == 'all of them'):
@@ -35,30 +35,30 @@ def get_filters():
         else:
             city = input('Sorry, I do not understand your input. Please input either '
                   'Chicago, New York, or Washington.\n(Enter Correct city):\t ').lower()
-               #lower() is used to take input of any type formate
+               #lower() command is used to take input of any type formate
     
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('\nWhich month Data you want..?: Simply type the Name \n-> January \n-> February \n-> March \n-> April \n-> May \n-> June \n').lower()
-               #.lower() is used to take input of any type formate
+               #.lower() command is  used to take input of any type formate
         
     while(True):
         if(month == 'january' or month == 'february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all'):
             break
         else:
             month = input('\nPlease try to Enter valid month otherwise it will invalid and Not showing any result:\n').lower()
-             #lower() is used to take input of any type formate   
+             #lower() command is used to take input of any type formate   
 
             
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day =  input('Which day Data you want..?  simply type the name \n-> Monday \n-> Tuesday  \n-> Wednesday  \n-> Thursday   \n-> Friday   \n-> Saturday  \n-> Sunday \n-> all to display data of all days\n').lower()
-     #lower() is used to take input of any type formate  
+     #lower() command is used to take input of any type formate  
     while(True):
         
         if(day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'sunday' or day == 'all'):
             break;
         else:
             day = input('\nPlease try to Enter valid Day otherwise it will invalid and Not showing any result:\nEnter Correct day:\t ').lower()
-             #lower() is used to take input of any type formate  
+             #lower() command is used to take input of any type formate  
                 
     #return day
 
@@ -79,7 +79,7 @@ def load_data(city, month, day):
 
  
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-    # to_datetime is used to convert(change) date into date format
+    # to_datetime command is used to convert(change) date into date format
     df['End Time'] = pd.to_datetime(df['End Time'])
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']

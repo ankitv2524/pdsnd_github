@@ -1,13 +1,13 @@
-### ******************************************** project work on " Explore US Bikeshare Data " ***************************************************************
+### ******************************************** Project Assignment on " Explore US Bikeshare Data " ***************************************************************
 import time
 import datetime
 import pandas as pd
 import statistics as st
 
 ## Filenames
-#chicago = 'chicago.csv'
-#new_york_city = 'new_york_city.csv'
-#washington = 'washington.csv'
+#1.chicago = 'chicago.csv'
+#2.new_york_city = 'new_york_city.csv'
+#3.washington = 'washington.csv'
 
 
 

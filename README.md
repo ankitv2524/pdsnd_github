@@ -1,8 +1,8 @@
 ### Date created
-I will create this project on 20 june 2020.
+I will create this project on 20th june 2020.
 
 ### Project Title
-BIKE SHARE DATA PROJECT
+*********************************************************            BIKE SHARE DATA PROJECT            ******************************************************************
 
 ### Description 
 

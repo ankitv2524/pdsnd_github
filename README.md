@@ -1,10 +1,10 @@
 ### Date created
-I will create this project on 20 june 2020
+I will create this project on 20 june 2020.
 
 ### Project Title
-project anylasis on "bikeshareproject"
+BIKE SHARE DATA PROJECT
 
-### Description
+### Description 
 
 Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
 
@@ -16,5 +16,5 @@ washington.csv
 new_york_city.csv
 
 ### Credit
-1.the csv file pickup from this website:  " https://www.motivateco.com/ "
+the csv file pickup from this website:  " https://www.motivateco.com/ "
 
